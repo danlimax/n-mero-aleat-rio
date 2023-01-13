@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: black;
+}
+
+button{
+    cursor: pointer;
+}
+
+h1{
+    color: #ffff;
+}
+
+.random-box{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+   width: 100vw;
+   height: 100vh; 
+}
+
+.random-form{
+    height: 50%;
+}
