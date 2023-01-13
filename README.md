@@ -1,1 +1,1 @@
-# n-mero-aleat-rio
+# Escolha um número random entre um e outro.
