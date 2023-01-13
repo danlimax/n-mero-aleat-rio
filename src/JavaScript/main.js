@@ -1,11 +1,10 @@
 
 const raffleButton =  document.querySelector(".random-form")
+const minNumber = document.getElementById("min-value")
 const maxNumber = document.getElementById("max-value")
 const randomH1 = document.querySelector(".random-num")
 
 
-
-const num1 = 2
 function randomNumber(number1, number2){
     number1 = Math.ceil(number1);
     number2 = Math.floor(number2);
@@ -15,7 +14,9 @@ function randomNumber(number1, number2){
 
  raffleButton.addEventListener("submit", function(event){
  event.preventDefault()
-  randomNumber(num1, maxNumber.value)
+ const minValue = minNumber.value
+ const maxValue = maxNumber.value
+  randomNumber(minValue, maxValue)
  })
 
 

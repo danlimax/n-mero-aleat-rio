@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="../assets/dados.png" type="image/x-png">
+    <link rel="stylesheet" href="../styles/style.css">
     <title>Sorteador | Home</title>
 </head>
 <body>
@@ -12,11 +13,15 @@
         <h1>Sorteie um número</h1>
         <h1 class="random-num"></h1>
         <form action="" class="random-form">
-            <input type="text" id="max-value" class="max-number" value="" required>
+            <label for="min-value">Menor valor</label>
+            <input name="min-value" type="text" id="min-value" class="input-number" value="" required>
+            <label for="max-value">Maior valor</label>
+            <input name="max-value" type="text" id="max-value" class="input-number" value="" required>
+            
             <button type="submit" id="raffle" >Sortear</button>
         </form>
         
     </div>
-    <script src="main.js"></script>
+    <script src="../JavaScript/main.js"></script>
 </body>
 </html>
