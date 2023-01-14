@@ -8,8 +8,14 @@
     function randomNumber(number1, number2){
         number1 = Math.ceil(number1);
         number2 = Math.floor(number2);
-        const random = Math.floor(Math.random() * (number2 - number1 + 1) + number1);
-        randomH1.innerText =  `${random}`
+        if(number1 > number2){
+            window.alert("O segundo número é menor que o primeiro.")
+        } else{
+            const random = Math.floor(Math.random() * (number2 - number1 + 1) + number1);
+            randomH1.innerText =  `${random}`
+        }
+        
+        
     }
     
      raffleButton.addEventListener("submit", function(event){
