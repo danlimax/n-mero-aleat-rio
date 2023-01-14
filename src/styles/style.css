@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 html{
@@ -34,4 +35,12 @@ label{
     flex-direction: column;
 
     height: 50%;
+}
+
+.random-num{
+    text-align: center;
+    border: solid 1px black;
+    border-radius: 4px;
+    width: 97px;
+    height: 39px;
 }
